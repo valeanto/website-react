@@ -7,27 +7,13 @@ import {
   Route,
   Link
 } from "react-router-dom";
+import LearningReact from './components/learning react/LearningReact'
 
-// export default function App() {
-  export const App = () => {
+export const App = () => {
     return (
       <div class ='App'>
     <Router>
     <Navbar />
-    <div>
-      <nav>
-        <ul>
-          <li>
-            <Link to="/">Home</Link>
-          </li>
-          <li>
-            <Link to="/about">About</Link>
-          </li>
-          <li>
-            <Link to="/users">Users</Link>
-          </li>
-        </ul>
-      </nav>
 
       <Switch>
         <Route path="/about">
@@ -35,21 +21,14 @@ import {
         </Route>
         <Route path="/users">
           <Users />
-        </Route>
-        <Route path="/">
-          <Home />
-        </Route>
+        </Route> d
+        <Route path="/learningreact" component={LearningReact} />
       </Switch>
-    </div>
   </Router>
   </div>
 );
 }
 export default App;
-
-function Home() {
-return <h2>Home</h2>;
-}
 
 function About() {
 return <h2>About</h2>;

@@ -1,28 +1,22 @@
 import React from 'react'
-import {
+import { Link,
     NavLink
   } from "react-router-dom";
+import useState from './learning react/Hooks/useState'
 export default function Navbar() {
     return (
-        <nav className="navbar navbar-default horizontal-navbar">
-        
+        <nav className="navbar horizontal-navbar">
         <div className="links-navbar-div">
-          <div className="btn-nav">
-            <ul className="nav navbar-nav navbar-right">
+          <div className="navbar-right">
+            <ul>
               <li>
-                <NavLink to="/">Add Job</NavLink>
+                <NavLink to="/">Play a Game</NavLink>
               </li>
               <li>
-                <NavLink to="/#search">Search</NavLink>
+                <NavLink to="/#search">Work</NavLink>
               </li>
               <li>
-                <a href="/#how-it-works">How It Works</a>
-              </li>
-              <li>
-                <NavLink to="/sign-in">Sign In</NavLink>
-              </li>
-              <li>
-                <NavLink to="/sing-up">Sign Up</NavLink>
+              <Link to="/learningreact">LearningReact</Link>
               </li>
             </ul>
           </div>
