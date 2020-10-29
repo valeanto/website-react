@@ -1,6 +1,6 @@
 import Welcome from './components/Welcome';
 import Navbar from './components/Navbar.js'
-import './App.css'
+import './App.scss'
 import {
   BrowserRouter as Router,
   Switch,
