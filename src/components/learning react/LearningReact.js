@@ -1,6 +1,6 @@
 import React from "react";
 import useStateTest from "./Hooks/useStateTest";
-import useRef from "./Hooks/useRef";
+import useRefTest from "./Hooks/useRefTest";
 
 import { Link } from "react-router-dom";
 export default function LearningReact() {
@@ -10,7 +10,7 @@ export default function LearningReact() {
       <Link to="/usestate" component={useStateTest}>use State</Link>
       </li>
       <li>
-      <Link to="/useRef" component={useRef} />
+      <Link to="/useRef" component={useRefTest} />
       </li>
     </ul>
   );
