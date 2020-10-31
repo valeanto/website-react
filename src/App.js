@@ -11,7 +11,7 @@ import LearningReact from './components/learning react/LearningReact'
 
 export const App = () => {
     return (
-      <div class ='App'>
+      <div className ='App'>
     <Router>
     <Navbar />
 
@@ -21,9 +21,13 @@ export const App = () => {
         </Route>
         <Route path="/users">
           <Users />
-        </Route> d
-        <Route path="/learningreact" component={LearningReact} />
+        </Route> 
+        <Route path="/learningreact">
+          <LearningReact />
+        </Route> 
+        {/* <Route path="/learningreact" component={LearningReact} /> */}
       </Switch>
+      
   </Router>
   </div>
 );
