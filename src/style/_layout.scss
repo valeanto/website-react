@@ -1,5 +1,5 @@
 // layout, such as the container and any grid systems.
-
+$lightorange:#FAF8F5;
 .horizontal-navbar{
     display:flex;
     flex-direction: row;
@@ -26,7 +26,7 @@
   padding:2rem 4rem;
   
   &-color{
-  background-color:orange;
+  background-color:$lightorange;
   }
 }
 .text-center{
