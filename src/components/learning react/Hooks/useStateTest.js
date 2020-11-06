@@ -1,30 +1,16 @@
 import React, { useState } from "react";
-
+// create counter
 
 export const useStateTest = () => {
-  const [state, setState] = useState({count:4, theme:'blue'})
-  const count=state.count
-  const theme=state.theme
-
-  function decrementCount() {
-    setState((prevState) => {
-        return {...prevState, count: prevState.count -1}
-    })
-  }
-
-  function incrementCount() {
-      setState((prevState)=>{
-          return{...prevState, count: prevState.count + 1}
-      })
-  }
+  const [visible, setVisible] = useState(false);
+  const onClick =()=> setVisible(true);
   return (
     <div>
-      <button onClick={decrementCount}>-</button>
-      <span>{count}</span>
-      <span>{theme}</span>
-      <button onClick={incrementCount}>+</button>
+      <div
+        class="item"
+        onClick={onClick}
+      >hello</div>
     </div>
   );
 };
-
 export default useStateTest;

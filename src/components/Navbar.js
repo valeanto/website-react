@@ -10,13 +10,16 @@ export default function Navbar() {
           <div className="navbar-right">
             <ul>
               <li>
-                <NavLink to="/">Play a Game</NavLink>
-              </li>
-              <li>
-                <NavLink to="/#search">Work</NavLink>
+                <NavLink to="/">Home</NavLink>
               </li>
               <li>
               <Link to="/learningreact">LearningReact</Link>
+              </li>
+              <li>
+              <Link to="/contact">Contact</Link>
+              </li>
+              <li>
+              <Link to="/read">Read</Link>
               </li>
             </ul>
           </div>
