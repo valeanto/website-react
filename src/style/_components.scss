@@ -5,7 +5,9 @@ $lightgrey: #f1f1f1;
   background-color: $lightgrey;
 }
 .button {
-  width: 289px;
+  -webkit-box-shadow: 10px 10px 7px -5px rgba(0,0,0,0.23);
+  -moz-box-shadow: 10px 10px 7px -5px rgba(0,0,0,0.23);
+  box-shadow: 10px 10px 7px -5px rgba(0,0,0,0.23);  width: 289px;
   border: 0;
   border-radius: 50px;
   background: linear-gradient(
@@ -16,10 +18,10 @@ $lightgrey: #f1f1f1;
   padding: 1rem;
   color: white;
   text-transform: uppercase;
-  font-weight:bold;
-  letter-spacing:2px;
-  font-size:10px;
-  &_small{
+  font-weight: bold;
+  letter-spacing: 2px;
+  font-size: 10px;
+  &_small {
     width: 189px;
     border: 0;
     border-radius: 50px;
@@ -31,8 +33,8 @@ $lightgrey: #f1f1f1;
     padding: 1rem;
     color: white;
     text-transform: uppercase;
-    font-weight:bold;
-    letter-spacing:2px;
-    font-size:10px;
+    font-weight: bold;
+    letter-spacing: 2px;
+    font-size: 10px;
   }
 }

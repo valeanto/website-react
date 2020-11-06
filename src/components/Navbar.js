@@ -1,24 +1,17 @@
 import React from "react";
-import { Link, NavLink } from "react-router-dom";
-import useState from "./learning react/Hooks/useStateTest";
+import { Link } from "react-router-dom";
 export default function Navbar() {
   return (
-    <nav className="navbar horizontal-navbar">
-      <div className="links-navbar-div">
-        <div className="navbar-right">
-          <ul>
-            <li>
-              <NavLink to="/">Home</NavLink>
-            </li>
-            <li>
-              <Link to="/learningreact">LearningReact</Link>
-            </li>
-            <li>
-              <Link to="/contact">Contact</Link>
-            </li>
-          </ul>
-          <button className="button_small">Read</button>
-        </div>
+    <nav className="horizontal-navbar">
+      <div className="left">
+        <Link to="/">
+          <img src="https://via.placeholder.com/50x50" />
+        </Link>
+      </div>
+      <div className="right">
+        <Link to="/learningreact">LearningReact</Link>
+        <Link to="/contact">Contact</Link>
+        <button className="button_small">Read</button>
       </div>
     </nav>
   );

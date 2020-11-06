@@ -1,5 +1,6 @@
 import Welcome from "./components/Welcome";
 import Navbar from "./components/Navbar.js";
+import Footer from "./components/Footer.js";
 import Contact from "./components/Contact.js";
 import "./style/main.scss";
 import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
@@ -21,6 +22,7 @@ export const App = () => {
             <Welcome />
           </Route>
         </Switch>
+        <Footer />
       </Router>
     </div>
   );
