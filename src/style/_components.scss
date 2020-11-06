@@ -19,4 +19,20 @@ $lightgrey: #f1f1f1;
   font-weight:bold;
   letter-spacing:2px;
   font-size:10px;
+  &_small{
+    width: 189px;
+    border: 0;
+    border-radius: 50px;
+    background: linear-gradient(
+      -90deg,
+      rgba(255, 146, 60, 1) -12%,
+      rgba(255, 192, 114, 1) 100%
+    );
+    padding: 1rem;
+    color: white;
+    text-transform: uppercase;
+    font-weight:bold;
+    letter-spacing:2px;
+    font-size:10px;
+  }
 }

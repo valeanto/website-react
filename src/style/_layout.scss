@@ -23,12 +23,11 @@
 }
 
 .section {
-  &-textcenter {
-    padding:2rem;
+  padding:2rem;
+  &_textcenter {
     text-align: center;
   }
-  &-col3{
-    padding:2rem 10rem;
+  &_col3{
     display:flex;
     flex-wrap:wrap;
     text-align:left;
@@ -38,7 +37,6 @@
   }
 
 }
-
 .background-color {
   background-color: $lightorange;
 }

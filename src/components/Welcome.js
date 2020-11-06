@@ -3,7 +3,7 @@ export default function Welcome() {
   return (
     <>
       <div className="app-grid">
-        <section className="section-textcenter background-color">
+        <section className="section_textcenter background-color">
           <h5>Online e-book</h5>
           <h1>Best design practices in one place</h1>
           <p>
@@ -11,7 +11,7 @@ export default function Welcome() {
             improve the quality of your work
           </p>
         </section>
-        <section className="section-col3">
+        <section className="section_col3">
           <div>
             <h5>benefits</h5>
             <h1>What you can get with our design e-book</h1>
