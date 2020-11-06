@@ -1,34 +1,44 @@
 // layout, such as the container and any grid systems.
-$lightorange:#FAF8F5;
-.horizontal-navbar{
-    display:flex;
-    flex-direction: row;
-    ul{
-        list-style-type: none; 
-    }
-    li {
-        float: left;
-      }
-      
-      li a {
-        display: block;
-        color: black;
-        text-align: center;
-        padding: 16px;
-        text-decoration: none;
-      }
-      
-      li a:hover {
-        background-color: #111111;
-      }
-}
-.app-grid{
-  padding:2rem 4rem;
-  
-  &-color{
-  background-color:$lightorange;
+
+.horizontal-navbar {
+  display: flex;
+  flex-direction: row;
+  ul {
+    list-style-type: none;
+  }
+  li {
+    float: left;
+  }
+  li a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 16px;
+    text-decoration: none;
+  }
+
+  li a:hover {
+    background-color: #111111;
   }
 }
-.text-center{
-  text-align:center;
+
+.section {
+  &-textcenter {
+    padding:2rem;
+    text-align: center;
+  }
+  &-col3{
+    padding:2rem 10rem;
+    display:flex;
+    flex-wrap:wrap;
+    text-align:left;
+    & > div{
+      width:30%;
+    }
+  }
+
+}
+
+.background-color {
+  background-color: $lightorange;
 }
