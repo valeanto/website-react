@@ -1,4 +1,8 @@
 import React from "react";
+import purpleImage from "./../images/purple.png";
+import yellowImage from "./../images/yellow.png";
+import orangeImage from "./../images/orange.png";
+import blueImage from "./../images/blue.png";
 export default function Welcome() {
   return (
     <>
@@ -21,7 +25,9 @@ export default function Welcome() {
             </p>
           </div>
           <div>
-            <img src=""></img>
+            <div class="image-container">
+              <img src={purpleImage} alt="" class="image"></img>
+            </div>
             <h2> Best Practices</h2>
             <p>
               Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
@@ -34,7 +40,9 @@ export default function Welcome() {
             </p>
           </div>
           <div>
-            <img src=""></img>
+            <div class="image-container">
+              <img src={blueImage} alt="" class="image"></img>
+            </div>
             <h2> Processes and tools</h2>
             <p>
               Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
@@ -48,7 +56,13 @@ export default function Welcome() {
           </div>
           <div></div>
           <div>
-            <img src=""></img>
+          <div class='image-container'>
+              <img
+                src={yellowImage}
+                alt=""
+                class='image'
+              ></img>
+            </div>
             <h2> Communication</h2>
             <p>
               Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
@@ -61,7 +75,13 @@ export default function Welcome() {
             </p>
           </div>
           <div>
-            <img src=""></img>
+          <div class='image-container'>
+              <img
+                src={orangeImage}
+                alt=""
+                class='image'
+              ></img>
+            </div>
             <h2> Client success</h2>
             <p>
               Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
@@ -81,7 +101,7 @@ export default function Welcome() {
             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
             eiusmod tempor incididunt ut labore et dolore
           </p>
-          <img src="" />
+          
         </section>
         <section>
           <h5>users</h5>

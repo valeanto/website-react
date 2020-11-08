@@ -6,17 +6,17 @@
   flex-wrap: wrap;
   flex-direction: row;
   position: relative;
-  a{
-    text-decoration:none;
-    color:$boldorange;
-    font-weight:bold;
+  a {
+    text-decoration: none;
+    color: $boldorange;
+    font-weight: bold;
   }
   .right {
     position: absolute;
     right: 0;
     padding: inherit;
-      > a{
-      padding:10px;
+    > a {
+      padding: 10px;
     }
   }
 }
@@ -37,4 +37,13 @@
 }
 .background-color {
   background-color: $lightorange;
+}
+.image-container {
+  width: 100%;
+  height: 50px;
+}
+.image {
+  float: left;
+  height: 100%;
+  object-fit: contain;
 }
