@@ -32,11 +32,9 @@ export default function Welcome() {
             <p>
               Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
               eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-              enim ad minim veniam, quis nostrud exercitation ullamco laboris
-              nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
+              enim ad minim veniam, quis </p><p>Duis aute irure dolor in
               reprehenderit in voluptate velit esse cillum dolore eu fugiat
-              nulla pariatur. Excepteur sint occaecat cupidatat non proident,
-              sunt in culpa qui officia deserunt mollit anim id est laborum
+              nulla pariatur. Excepteur sint occaecat anim id est laborum
             </p>
           </div>
           <div>
@@ -47,11 +45,9 @@ export default function Welcome() {
             <p>
               Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
               eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-              enim ad minim veniam, quis nostrud exercitation ullamco laboris
-              nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
+              enim ad minim veniam, quis </p><p>Duis aute irure dolor in
               reprehenderit in voluptate velit esse cillum dolore eu fugiat
-              nulla pariatur. Excepteur sint occaecat cupidatat non proident,
-              sunt in culpa qui officia deserunt mollit anim id est laborum
+              nulla pariatur. Excepteur sint occaecat anim id est laborum
             </p>
           </div>
           <div></div>
@@ -67,11 +63,9 @@ export default function Welcome() {
             <p>
               Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
               eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-              enim ad minim veniam, quis nostrud exercitation ullamco laboris
-              nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
+              enim ad minim veniam, quis </p><p>Duis aute irure dolor in
               reprehenderit in voluptate velit esse cillum dolore eu fugiat
-              nulla pariatur. Excepteur sint occaecat cupidatat non proident,
-              sunt in culpa qui officia deserunt mollit anim id est laborum
+              nulla pariatur. Excepteur sint occaecat anim id est laborum
             </p>
           </div>
           <div>
@@ -86,15 +80,13 @@ export default function Welcome() {
             <p>
               Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
               eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-              enim ad minim veniam, quis nostrud exercitation ullamco laboris
-              nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
+              enim ad minim veniam, quis </p><p>Duis aute irure dolor in
               reprehenderit in voluptate velit esse cillum dolore eu fugiat
-              nulla pariatur. Excepteur sint occaecat cupidatat non proident,
-              sunt in culpa qui officia deserunt mollit anim id est laborum
+              nulla pariatur. Excepteur sint occaecat anim id est laborum
             </p>
           </div>
         </section>
-        <section className="textcenter">
+        <section className="section_textcenter">
           <h5>e-book</h5>
           <h1>A modern means of publication</h1>
           <p>
@@ -103,22 +95,22 @@ export default function Welcome() {
           </p>
           
         </section>
-        <section>
+        <section className="section_textcenter">
           <h5>users</h5>
           <h1>Reflection</h1>
           <div className="user-card"></div>
           <div className="user-card"></div>
           <div className="user-card"></div>
         </section>
-        <section className="textcenter">
+        <section className="section_textcenter">
           <h5>contribute</h5>
-          <h1>become one of the curators</h1>
+          <h1>Become one of the curators</h1>
           <p>
             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
             eiusmod tempor incididunt ut labore et dolore{" "}
           </p>
+          <button className="button">Join as contributor</button>
         </section>
-        <button className="button">Join as contributor</button>
       </div>
     </>
   );

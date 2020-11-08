@@ -1,11 +1,15 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import logoImage from "../images/netguru-logo.png";
+
 export default function Navbar() {
   return (
     <nav className="horizontal-navbar">
       <div className="left">
         <Link to="/">
-          <img src="https://via.placeholder.com/50x50" />
+          <div className="image-container-small">
+            <img src={logoImage} alt="" className="image"></img>
+          </div>
         </Link>
       </div>
       <div className="right">
